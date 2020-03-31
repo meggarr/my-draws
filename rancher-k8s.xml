@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T14:12:23.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" version="12.9.1" etag="BUa1gdbUvmCBnouRb0Tn" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-03-31T16:06:40.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" version="12.9.1" etag="PR-jqoWqM-uK0gHnbChD" type="github" pages="10">
   <diagram name="Page-1" id="0">
     <mxGraphModel dx="1023" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -963,6 +963,115 @@
         </mxCell>
         <mxCell id="8LzaFZIWt6NNKA9tQafw-17" value="API" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="8LzaFZIWt6NNKA9tQafw-14">
           <mxGeometry y="78" width="126" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hXvv3pRbvSIx1j3M9PAW" name="Page-10">
+    <mxGraphModel dx="1074" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-0" />
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-1" parent="J6Mic_OTc1ZrpcnvgmOk-0" />
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;fillColor=#FFFCF0;fontFamily=Lucida Console;fontSize=11;align=center;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="75" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-3" value="&lt;div&gt;X Cloud Web&lt;/div&gt;Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#FFFCF0;fontFamily=Lucida Console;fontSize=11;align=center;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="210" y="100" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-7" value="Web Access" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;fontFamily=Lucida Console;fontSize=11;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="70" as="sourcePoint" />
+            <mxPoint x="50" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-4" value="CFIdP:Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#dae8fc;fontFamily=Lucida Console;fontSize=11;align=center;strokeColor=#6c8ebf;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="375" y="100" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-4">
+          <mxGeometry x="45" y="84" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=11;align=center;gradientColor=none;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-4">
+          <mxGeometry x="45" y="275" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-19" value="&lt;div&gt;Get Web&lt;br&gt;&lt;/div&gt;&lt;div&gt;callback&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;fontFamily=Lucida Console;fontSize=11;" edge="1" target="J6Mic_OTc1ZrpcnvgmOk-18" parent="J6Mic_OTc1ZrpcnvgmOk-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="255" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-5" value="IdP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#d5e8d4;fontFamily=Lucida Console;fontSize=11;align=center;strokeColor=#82b366;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="638" y="100" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-8" value="Redirect" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Lucida Console;fontSize=11;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="187" as="sourcePoint" />
+            <mxPoint x="420" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-9" value="Redirect" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Lucida Console;fontSize=11;exitX=0.8;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1" source="J6Mic_OTc1ZrpcnvgmOk-11" target="J6Mic_OTc1ZrpcnvgmOk-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="425" y="230" as="sourcePoint" />
+            <mxPoint x="505" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-10" value="Succeed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Lucida Console;fontSize=11;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558.5" y="486" as="sourcePoint" />
+            <mxPoint x="259.5" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-13" value="CFIdP:Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#dae8fc;fontFamily=Lucida Console;fontSize=11;align=center;strokeColor=#6c8ebf;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="510" y="100" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-13">
+          <mxGeometry x="45" y="205" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-14" value="Callback" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Lucida Console;fontSize=11;entryX=0.52;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="424.5" y="309.20000000000005" as="sourcePoint" />
+            <mxPoint x="562" y="309.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-17" value="Session Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Lucida Console;fontSize=11;exitX=0.8;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="342" as="sourcePoint" />
+            <mxPoint x="424.5" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-22" value="Save Web Callback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry x="435" y="180" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-23" value="Session Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Lucida Console;fontSize=11;exitX=0.8;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="415" as="sourcePoint" />
+            <mxPoint x="259.5" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-24" value="Validate Token" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Lucida Console;fontSize=11;exitX=0.9;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="455" as="sourcePoint" />
+            <mxPoint x="559.5" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-25" value="Response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Lucida Console;fontSize=11;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="275" as="sourcePoint" />
+            <mxPoint x="425" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6Mic_OTc1ZrpcnvgmOk-26" value="Saved Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Lucida Console;fontSize=11;exitX=0.8;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J6Mic_OTc1ZrpcnvgmOk-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="220" as="sourcePoint" />
+            <mxPoint x="259" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
