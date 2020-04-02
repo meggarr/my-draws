@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-02T05:28:26.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="CpOVhcWrXiGiPRN4Z7Xw" version="12.9.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-04-02T05:38:35.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="wi8PHVwccqg-SCLAd5Ia" version="12.9.1" type="github" pages="12">
   <diagram name="Page-1" id="0">
     <mxGraphModel dx="1422" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
         <mxCell id="dI12iqNmRCl8LrNgdwjK-17" value="Calix Cloud" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontFamily=Lucida Console;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="130" y="120" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dI12iqNmRCl8LrNgdwjK-18" value="Meteor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
+        <mxCell id="dI12iqNmRCl8LrNgdwjK-18" value="Meteor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;fontStyle=1" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="150" y="170" width="350" height="170" as="geometry" />
         </mxCell>
         <mxCell id="dI12iqNmRCl8LrNgdwjK-19" value="MongoDB" style="shape=cylinder;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Lucida Console;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
@@ -706,13 +706,13 @@
         <mxCell id="dI12iqNmRCl8LrNgdwjK-20" value="PostgreSQL" style="shape=cylinder;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Lucida Console;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="553" y="420" width="94" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dI12iqNmRCl8LrNgdwjK-21" value="&lt;div&gt;Authz&lt;/div&gt;&lt;div&gt;- User&lt;/div&gt;&lt;div&gt;- RBAC&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;align=left;fontFamily=Lucida Console;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
+        <mxCell id="dI12iqNmRCl8LrNgdwjK-21" value="&lt;div&gt;Authz&lt;/div&gt;&lt;div&gt;- User&lt;/div&gt;&lt;div&gt;- RBAC&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;align=left;fontFamily=Lucida Console;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=5;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="540" y="160" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="dI12iqNmRCl8LrNgdwjK-22" value="Client (Browser)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;align=left;fillColor=#d0cee2;strokeColor=#56517e;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
+        <mxCell id="dI12iqNmRCl8LrNgdwjK-22" value="&lt;div&gt;Client&lt;/div&gt;&lt;div&gt;- Browser&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;align=left;fillColor=#d0cee2;strokeColor=#56517e;spacingLeft=5;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="160" y="205" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dI12iqNmRCl8LrNgdwjK-23" value="&lt;div&gt;Server End&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Identity*&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Session&lt;/div&gt;&lt;div&gt;- API Proxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
+        <mxCell id="dI12iqNmRCl8LrNgdwjK-23" value="&lt;div&gt;Server&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Meteor Method&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Identity*&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Session&lt;/div&gt;&lt;div&gt;- API Proxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Lucida Console;fontSize=14;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;spacingLeft=5;" parent="MaNcorZTHxZcJkjPvk5I-1" vertex="1">
           <mxGeometry x="280" y="180" width="190" height="130" as="geometry" />
         </mxCell>
         <mxCell id="dI12iqNmRCl8LrNgdwjK-24" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;fontSize=12;fontColor=#4D4D4D;exitX=0.702;exitY=0;elbow=vertical;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.658;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="MaNcorZTHxZcJkjPvk5I-1" source="dI12iqNmRCl8LrNgdwjK-20" target="dI12iqNmRCl8LrNgdwjK-21" edge="1">
@@ -755,7 +755,7 @@
             <mxPoint x="643" y="704" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3op3zvRP6ZyCURkWYu5-0" value="&lt;div&gt;X Service&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;align=left;fontFamily=Lucida Console;verticalAlign=middle;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="MaNcorZTHxZcJkjPvk5I-1">
+        <mxCell id="p3op3zvRP6ZyCURkWYu5-0" value="&lt;div&gt;X Service&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;align=left;fontFamily=Lucida Console;verticalAlign=middle;fillColor=#bac8d3;strokeColor=#23445d;spacingLeft=5;" vertex="1" parent="MaNcorZTHxZcJkjPvk5I-1">
           <mxGeometry x="540" y="250" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="p3op3zvRP6ZyCURkWYu5-1" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;fontSize=12;fontColor=#4D4D4D;exitX=0.33;exitY=0.017;elbow=vertical;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.375;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MaNcorZTHxZcJkjPvk5I-1" source="dI12iqNmRCl8LrNgdwjK-20" target="p3op3zvRP6ZyCURkWYu5-0">
